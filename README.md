@@ -1,10 +1,9 @@
-# choo-animals-starter
+# Lil Waves 🌊
 
-A starter app for the `your-first-choo-app` tutorial.
+Created a lil game made with `choo`.
 
-First, remix this Glitch app so you can start editing the code.
+First time using Choo & Glitch so I had a lot of fun!
 
-Once your new remix is open, select `index.js` in the left hand sidebar to get started.
+Followed the tutorial @ [https://handbook.choo.io/your-first-choo-app](https://handbook.choo.io/your-first-choo-app)
 
-Make sure to follow the tutorial at [https://handbook.choo.io/your-first-choo-app](https://handbook.choo.io/your-first-choo-app)
-
+# [Live Demo](https://lil-waves.glitch.me/) ✨
