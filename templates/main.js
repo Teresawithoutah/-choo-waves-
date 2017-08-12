@@ -10,14 +10,18 @@ module.exports = function (state,emit) {
   return html`
     <div class="container">
       <div class="grass">
-        <img src="/assets/waves.gif" />
+        <img src="/assets/waves.gif" onclick=${add}/>
         ${state.animals.map(animal)}
       </div>
     </div>
   ` 
-   // add new animal to state
-  function add () {
-    emit('addAnimal')
-  }
+ function add (e) {
+  var x = e.offsetX - 20
+  var y = e.offsetY - 10
+
+  var obj = {x: x, y: y}
+  emit('addAnimal', obj)
+}
   
 }
+
