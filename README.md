@@ -1,4 +1,4 @@
-# Waves
+# Lil Waves 🌊
 
 Created a lil game made with `choo`.
 
