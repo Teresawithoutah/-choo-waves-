@@ -10,7 +10,7 @@ module.exports = function (state,emit) {
   return html`
     <div class="container">
       <div class="grass">
-        <img src="/assets/waves.gif" onclick=${add}/>
+        <img src="/assets/wave.gif" onclick=${add}/>
         ${state.animals.map(animal)}
       </div>
     </div>

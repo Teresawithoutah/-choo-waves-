@@ -15,12 +15,12 @@ app.use(function (state, emitter) {
   // initialize state
   state.animals = [
     {type: 'puffy', x: 50, y: 300},
-    {type: 'lilhippo', x: 100, y: 50}
+    {type: 'iso', x: 100, y: 50}
   ]
 
 // add animal
 emitter.on('addAnimal', function (data) {
-  var animals = ['isopod', 'dumbo', 'lilhippo','squid','puffy']
+  var animals = ['iso', 'dumbo', 'lilhippo','squid','puffy']
 
   var type = Math.floor(Math.random() * 5)
   var x = data.x
