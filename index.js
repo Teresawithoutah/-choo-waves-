@@ -14,14 +14,13 @@ var app = choo()
 app.use(function (state, emitter) {
   // initialize state
   state.animals = [
-    {type: 'isopod', x: 200, y: 100},
-    {type: 'dumbo', x: 50, y: 300},
-    {type: 'lilhippo', x: 100, y: 50}
+    {type: 'puffy', x: 50, y: 300},
+    {type: 'iso', x: 100, y: 50}
   ]
-  
+
 // add animal
 emitter.on('addAnimal', function (data) {
-  var animals = ['isopod', 'dumbo', 'lilhippo','squid','puffy']
+  var animals = ['iso', 'dumbo', 'lilhippo','squid','puffy']
 
   var type = Math.floor(Math.random() * 5)
   var x = data.x
@@ -40,4 +39,3 @@ app.route('/', main)
 
 // start app
 app.mount('div')
-
