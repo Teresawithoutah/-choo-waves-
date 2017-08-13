@@ -14,7 +14,6 @@ var app = choo()
 app.use(function (state, emitter) {
   // initialize state
   state.animals = [
-    {type: 'puffy', x: 50, y: 300},
     {type: 'iso', x: 100, y: 50}
   ]
 
@@ -32,6 +31,11 @@ emitter.on('addAnimal', function (data) {
   emitter.emit('render')
 })
 
+// remove animal
+  emitter.on('removeAnimal', function (i) {
+    state.animals.splice(i, 1)
+    emitter.emit('render')
+  })
 })
 
 //route
