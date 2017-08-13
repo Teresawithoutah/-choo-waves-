@@ -21,7 +21,7 @@ app.use(function (state, emitter) {
   
 // add animal
 emitter.on('addAnimal', function (data) {
-  var animals = ['isopod', 'dumbo', 'lilhippo', 'tiger', 'walrus']
+  var animals = ['isopod', 'dumbo', 'lilhippo','squid','puffy']
 
   var type = Math.floor(Math.random() * 5)
   var x = data.x
