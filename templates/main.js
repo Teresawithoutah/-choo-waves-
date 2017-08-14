@@ -10,12 +10,17 @@ module.exports = function (state,emit) {
   return html`
     <div class="container">
       <div class="grass">
+          <div class="box">
+<div class="tabber">
+    <img src="assets/h.png" width="611px;" />
+</dv>
         <img src="/assets/wave.gif" onclick=${add}/>
         ${state.animals.map(animalMap)}
       </div>
+    </div>
     <div class="controls">
       <ul class="filters">
-      <li> made for katie  </li>
+      <li> <a href="https://www.instagram.com/katiejets/">made for my love - katie 🎉</a></li>
     </ul>
 </div>
 

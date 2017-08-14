@@ -91,10 +91,11 @@ button:active {
 header { margin: 0 0 1.5rem 0; }
 
 .grass {
-  width: 420px;
-  height: 420px;
-  margin: 0 0 1.5rem 0;
+  width: 450px;
+  height: 480px;
+  margin: 65 0 1.5rem 0;
   position: relative;
+  box-shadow: 10px 10px  black;
 }
 
 .grass img { position: absolute; }
@@ -106,6 +107,7 @@ header { margin: 0 0 1.5rem 0; }
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 2em;
 }
 
 li {
@@ -113,3 +115,9 @@ li {
   list-style-type: none;
 }
 
+.tabber img {
+  position: absolute;
+  margin-top: -6.3em; 
+  margin-left: -4.474em;
+}
+  
